@@ -1,0 +1,25 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    gap: 40px;
+
+    .title { 
+        display: flex;
+        align-items: center;
+        justify-content: center;; 
+    }
+     
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

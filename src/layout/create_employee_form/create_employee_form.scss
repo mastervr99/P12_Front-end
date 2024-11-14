@@ -1,0 +1,26 @@
+#create-employee {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        margin-top: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+        label {
+            margin-top: 1rem;
+            margin-bottom: 10px;
+        }
+
+        #state-button {
+            text-align: left;
+            white-space: nowrap;
+            width: 14em;
+        }
+    }
+}
